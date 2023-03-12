@@ -1,25 +1,23 @@
 # Movie Gallery
-###T his is a movie gallery web application built with HTML, CSS, JavaScript, and UIkit. It displays a collection of movie posters in a grid layout, and allows users to click on a poster to view more details about the movie.
+### This is a movie gallery web application built with HTML, CSS, JavaScript, and UIkit. It displays a collection of movie posters in a grid layout, and allows users to click on a poster to view more details about the movie.
 
 ## Features
-Displays movie posters in a responsive grid layout
-Allows users to click on a poster to view more details about the movie
-Pagination for browsing through multiple pages of movie posters
-Smooth hover effect for movie posters, with the movie title displayed on the poster
-Navigation buttons for scrolling through movie posters
-Mobile-friendly design
+* Displays movie posters in a responsive grid layout
+* Pagination for browsing through multiple pages of movie posters
+* Smooth hover effect for movie posters, with the movie title displayed under the poster
+
 ## How to Use
 Clone the repository or download the zip file.
 Open the index.html file in your web browser.
 Browse through the movie posters using the navigation buttons or by clicking on the pagination buttons.
 Click on a movie poster to view more details about the movie.
+
 ## Credits
 This web application was built with the following technologies:
-
-### HTML
-### CSS
-### JavaScript
-### UIkit
+#### HTML
+#### CSS
+#### JavaScript
+#### UIkit
 The movie posters used in this web application were obtained from The Movie Database API.
 
 ## License
