@@ -16,6 +16,8 @@ This web application was built with the following technologies:
 * CSS
 * JavaScript
 * UIkit
+
+
 The movie posters used in this web application were obtained from The Movie Database API.
 
 ## License
