@@ -7,10 +7,8 @@
 * Smooth hover effect for movie posters, with the movie title displayed under the poster
 
 ## How to Use
-Clone the repository or download the zip file.
-Open the index.html file in your web browser.
-Browse through the movie posters using the navigation buttons or by clicking on the pagination buttons.
-Click on a movie poster to view more details about the movie.
+* Clone the repository or download the zip file.
+* Open the index.html file in your web browser.
 
 ## Credits
 This web application was built with the following technologies:
