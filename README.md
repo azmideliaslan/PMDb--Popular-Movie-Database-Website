@@ -1,5 +1,5 @@
 # Movie Gallery
-### This is a movie gallery web application built with HTML, CSS, JavaScript, and UIkit. It displays a collection of movie posters in a grid layout, and allows users to click on a poster to view more details about the movie.
+This is a movie gallery web application built with HTML, CSS, JavaScript, and UIkit. It displays a collection of movie posters in a grid layout, and allows users to click on a poster to view more details about the movie.
 
 ## Features
 * Displays movie posters in a responsive grid layout
