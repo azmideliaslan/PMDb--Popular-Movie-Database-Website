@@ -21,6 +21,9 @@ const loadMovies = async() => {
 			        <div class="gallery-item">
 			            <img class="gallery-image" src="https://image.tmdb.org/t/p/w500/${film.poster_path}" alt="">
 			            <h3 class="title">${film.title}</h3>
+			            <p>${film.vote_average}/10</p>
+			            <p>${film.release_date}</p>
+			            <p> ${film.overview}</p>
 			        </div>
 					
 				`;
