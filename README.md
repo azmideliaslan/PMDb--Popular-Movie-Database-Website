@@ -5,6 +5,7 @@ This is a movie gallery web application built with HTML, CSS, JavaScript, and UI
 * Displays movie posters in a responsive grid layout
 * Pagination for browsing through multiple pages of movie posters
 * Smooth hover effect for movie posters, with the movie title displayed under the poster
+* Search film option added
 
 ## How to Use
 * Clone the repository or download the zip file.
