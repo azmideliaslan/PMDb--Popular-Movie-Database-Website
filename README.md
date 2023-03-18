@@ -6,6 +6,7 @@ This is a movie gallery web application built with HTML, CSS, JavaScript, and UI
 * Pagination for browsing through multiple pages of movie posters
 * Smooth hover effect for movie posters, with the movie title displayed under the poster
 * Search film option added
+* Uikit sticky header added ( i builded 1 year ago i used that/ https://codepen.io/azmideliaslan/pen/ExbrRLw )
 
 ## How to Use
 * Clone the repository or download the zip file.
