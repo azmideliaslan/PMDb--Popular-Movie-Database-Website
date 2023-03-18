@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/css/uikit.min.css" />
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.9/dist/css/uikit.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.9/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.9/dist/js/uikit-icons.min.js"></script>
         <title>Movie Database</title>
     </head>
     <body>
+      <div id="navbar" class="uk-navbar-container" uk-sticky>
+            <div class="uk-container uk-container">
+                <div class="uk-navbar">
+                    <div class="uk-navbar-left">
+                        <div class="uk-navbar-item">
+                            <a style="color: Red; font-size: 30px;" href="">Title or Logo</a>
+                        </div>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav uk-visible@s ">
+                            <li class="active"><a href=""><i class="fa fa-home fa-fw mr-1"></i>Home</a></li>
+                            <li><a href=""><i class="fa fa-info-circle fa-fw mr-1"></i>About</a></li>
+                            <li><a href=""><i class="fa fa-th-list fa-fw mr-1"></i>Blog</a></li>
+                            <li><a href=""><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Contact</a></li>
+                            <li><a href=""><i class="fa fa-user-plus fa-fw mr-1"></i>Register</a></li>
+                            <li><a href=""><i class="fa fa-sign-in fa-fw mr-1"></i>Log In</a></li>
+                            <li><a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle></a></li> 
+                        </ul>
+                        <a class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon href="#offcanvas" uk-toggle></a>
+                    </div>
+                    <div id="modal-full" class="uk-modal-full uk-modal" uk-modal>
+                        <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" uk-height-viewport>
+                            <button class="uk-modal-close-full" type="button" uk-close></button>
+                            <form class="uk-search uk-search-large">
+                                <input class="uk-search-input uk-text-center" type="search" placeholder="Search" autofocus>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="offcanvas" class=""  uk-offcanvas="flip: true; overlay: false; mode: slide;" aria-hidden="true">
+                        <div class="uk-offcanvas-bar">
+                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                <ul class="uk-nav uk-nav-offcanvas ">
+                                    <li class="active"><a href=""><i class="fa fa-home fa-fw mr-1"></i>Home</a></li>
+                                    <li><a href=""><i class="fa fa-info-circle fa-fw mr-1"></i>About</a></li>
+                                    <li><a href=""><i class="fa fa-th-list fa-fw mr-1"></i>Blog</a></li>
+                                    <li><a href=""><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Contact</a></li>
+                                    <li><a href=""><i class="fa fa-user-plus fa-fw mr-1"></i>Register</a></li>
+                                    <li><a href=""><i class="fa fa-sign-in fa-fw mr-1"></i>Log In</a></li>
+                                    <li><a class="uk-navbar-toggle" href="#modal-full" uk-search-icon uk-toggle></a></li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="uk-container">
           <h1 class="uk-heading-medium">Popular Movies</h1>
           <form class="uk-search uk-search-default uk-margin-bottom" id="searchForm" action="search.html">
@@ -30,5 +79,6 @@
           </div>
         </div>
         <script src="script.js"></script>
+      
     </body>
 </html>

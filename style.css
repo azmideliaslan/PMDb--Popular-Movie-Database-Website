@@ -1,6 +1,9 @@
     body{
       background-color: white;
+      font-family: 'Roboto', sans-serif;
     }
+    #navbar .uk-navbar-right a{color: #3B4859;}
+    #navbar{background-color: #DCE6F2;color: #3B4859;}
     .uk-container {
      
       margin: 0 auto;
